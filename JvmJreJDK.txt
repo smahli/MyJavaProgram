@@ -1,0 +1,23 @@
+JDK JRE and JVM
+
+JVM :
+It loads the code.
+It verifies the code.
+It executes the code.
+provide run time environment.     	JUST PROVIDES ENVIRONMENT
+Physically does not exist.
+Platform Independent.
+
+
+
+JRE:
+Implementation of JVM.
+For running java code JRE is required.			TO RUN CODE
+JRE has libraries that JVM uses them at runtime.
+Physically exist.
+Platform depedent.
+
+JDK :
+Full featured software development kit.   		TO RUN CODE + PROGRAMMING
+Contains JRE and Development tools.
+
