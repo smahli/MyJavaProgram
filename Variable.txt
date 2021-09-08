@@ -1,0 +1,30 @@
+Variables 
+
+Types of data and Variables
+
+numeruc data 
+Plain text
+
+Variables are container whih is used to contain data types or stores value.
+There are different types of variables or data types in java.
+Types of variables of data types 
+
+
+            1.String 
+string variables store text such as "Hello world ".
+String values are surrounded by double quotes("").
+
+            2. Int 
+ Int stores integer values (whole numbers) such as 123 or -123
+
+            3.Float
+float stores floating point numbers with decimals such as 12.1999 or -12.199
+
+            4.Char
+char stores single characters such as 'a' or 'B' and surrounded by single quotes('').
+            5. Boolean
+Boolean stores the value of two states : True or False.
+
+
+
+
