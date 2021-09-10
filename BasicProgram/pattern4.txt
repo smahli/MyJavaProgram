@@ -1,0 +1,8 @@
+we will print this kind of pattern
+
+    *
+   **
+  ***
+ ****
+*****
+  
