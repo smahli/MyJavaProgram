@@ -1,0 +1,11 @@
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+
+We will print this star patter in the First.java Program
