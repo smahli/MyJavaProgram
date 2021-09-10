@@ -1,3 +1,7 @@
-public static void Greetings{
-    System.out.println(" hello There Good Morning");
+public class Greetings{
+        public static void main(String[] args) {
+
+            System.out.print("Hello World");
+            
+        }
 }
