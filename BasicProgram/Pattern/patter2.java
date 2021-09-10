@@ -9,7 +9,7 @@ public class patter2 {
 
         System.out.println(" Enter the number where to start from ");
         int n = sc.nextInt();
-        System.out.println("**************************");
+        System.out.println("************************");
         System.out.println("Here you go");
         for(int i=n;i>=1;i--){
             for( int j=n;j>=1;j--){
