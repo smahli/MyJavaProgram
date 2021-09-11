@@ -11,7 +11,7 @@ public class Pattern12 {
 
             }
             for(int k=1;k<=n;k++){
-                if (i>=2 && k<=i-1) {
+                if (i>=2 && k>i-1) {
                     System.out.print(" ");
                     
                 }
