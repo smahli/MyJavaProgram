@@ -1,0 +1,12 @@
+*                 *
+ *               *
+  *             *
+   *           *
+    *         *
+     *       *
+      *     * 
+       *   * 
+        * * 
+         *
+
+         This pattern should be printed 
