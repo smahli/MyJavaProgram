@@ -1,0 +1,14 @@
+
+
+we will print below pattern
+
+        *
+         *
+          *
+           *
+            *
+             *
+              *
+               *
+                *
+                 *
