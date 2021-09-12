@@ -11,12 +11,15 @@ public class Prime2 {
                 if(n%i==0){
                     temp=temp+1;
                 }
-            
-                if(temp==0){
-                    System.out.println(" Prime No: " + j);
-                }
+               
     
     
+            }
+            if(temp==0){
+                System.out.println(" Prime No: " + j);
+            }
+            else{
+                temp =0;
             }
             
             
