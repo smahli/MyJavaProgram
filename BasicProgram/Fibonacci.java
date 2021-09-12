@@ -14,7 +14,7 @@ public class Fibonacci{
 
         for(int i=1;i<=n-2;i++){
             sum=a+b;
-            System.out.println("Fibonacci :."+ sum);
+            System.out.println("Fibonacci :"+ sum);
             a=b;
             b=sum;
 
