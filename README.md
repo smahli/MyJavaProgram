@@ -1,1 +1,1 @@
-# MyJavaProgram Its all my java basic program bruhsing up all java logics and programs
+# MyJavaProgram Its all my java basic program brushing up all java logics and programs
