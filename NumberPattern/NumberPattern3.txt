@@ -4,3 +4,4 @@
 4321
 54321
 654321
+  i will print this pattern
