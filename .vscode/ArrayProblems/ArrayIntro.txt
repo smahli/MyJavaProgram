@@ -1,0 +1,54 @@
+What is Array ?
+____________________
+
+* An Array is an object that holds a
+  fixed number of values of homogeneous or
+  similar data types/
+
+* or An array is a data structure where 
+  we store similar elements
+
+* The length of an array is assigned when
+ the array is created and after creation
+ its length is fixed.
+
+ for examole : int a[] = new int[6] ;
+
+ Features of an Array
+ __________________________
+
+* A java array variable can be declared
+like other variables with [] after the data type.
+
+* The variables in the array are ordered and each have an index begining from
+0.
+
+* the direct superclass of an array type is object.
+
+* they are always created at the runtime.
+
+* the length of an array can be found by using member " length
+This is different from C/C++ where we find lengthusing sizeof.
+
+* The elements of array are stored in consecutive memory locations.
+
+ADVANTAGES OF Array
+__________________________
+
+* Array are used to store multiple data items of same type by using only single name.
+* We can access any elementsrandomly by using indexes provided by arrays.
+* Array can be used to implement other data structure like linked list , stacks , queues , tees and graphs etc.
+* Primitive type to wrapper classes object conversion will not happen so it is fast.
+
+DISADVANTAGES OF Array
+__________________________
+
+* Fixed size : we need to mention the size of the array , thus they have fixed size. when array is created size cannoit be changed .
+* Memory wastage : There is alot of chances of memory waste .
+suppose we create an array of length 100 but only 10 elements are inserted then 90 blocks are empty
+and thus memory wasted.
+*strongly typed : array stores only similar data type thus strongly typed.
+
+* reduce Performance : the elements of array are sorted in consecurive memory locatiobnns
+thus to delete an element in an array we need to travrse through out the array so this will reduce performance .
+* no methods : array doesn't have add or remove methofds 
