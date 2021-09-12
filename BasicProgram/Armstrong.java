@@ -9,8 +9,7 @@ public class Armstrong {
         int t1=no;
         int q;
         int length=0;
-        int rem;
-        int mult=1;
+        
         int sum=0;
                             //0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
         while(n!=0){
@@ -21,26 +20,26 @@ public class Armstrong {
 
         }
         while(t1!=0){
+            int rem;
+            int mult=1;
             rem = t1%10;
             for(int i=1;i<=length;i++){
                
                 mult=mult*rem;
-                t1= t1/10;
-    
-    
-    
-    
-            }
+            }    
             sum=sum+mult;
+            t1= t1/10;
+            
+            
             
 
         }
         if(sum==no){
-            System.out.println("No is ArmStrong");
+            System.out.println("Number is ArmStrong");
 
         }
         else{
-            System.out.println(" Not a ArmStrong ");
+            System.out.println(" Number Not a ArmStrong ");
         }
         
 
