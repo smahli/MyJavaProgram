@@ -1,44 +1,28 @@
+import java.util.Scanner;
+
 public class Fibonacci{
     public static void main(String[] args) {
-        
-
-
-
-
-        import java.util.Scanner;
-
-public class Prime2 {
-    public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        System.out.println("Enter How long you want Prime no");
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" How long you want to print fabonacci Series");
         int n = sc.nextInt();
-        for(int i=1;i<=n;i++){
-            int temp=0;
-            for(int j=2;j<=i-1;j++){
-                if(i%j==0){
-                    temp=temp+1;
-                }
-                else{
-                    temp=0;
-                }
-               
-            }
-            if(temp==0){
-                System.out.println("Prime No: "+ i);
+        int a=0;
+        int b=1;
+        int sum =0;
+        System.out.println("Fibonacci : "+ a);
+        System.out.println("Fibonacci : "+ b);
 
-            }
-            else{
-                temp=temp+1;
-            }
+
+        for(int i=1;i<=n-2;i++){
+            sum=a+b;
+            System.out.println("Fibonacci :."+ sum);
+            a=b;
+            b=sum;
+
 
         }
+
+    }
         
-    }
 
 
-
-    
-}
-
-    }
 }
