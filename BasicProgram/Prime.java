@@ -16,12 +16,12 @@ public class Prime {
 
         }
         
-        if(temp>0){
-            System.out.println(" No is Not Prime");;
+        if(temp==0){
+            System.out.println(" No is Prime");;
 
         }
         else{
-            System.out.println("No Is Prime");
+            System.out.println("No Is  Not Prime");
         }
         
     }
