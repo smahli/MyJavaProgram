@@ -12,13 +12,13 @@ public class MinElement {
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
-        int max = a[0];
+        int min = a[0];
         for(int j=1;j<n;j++){
-            if(a[j] <=max){
-                max =a[j];
+            if(a[j] <=min){
+                min =a[j];
             }
         }
-        System.out.println("Min is "+max);
+        System.out.println("Min is "+min);
     }
 }
 
